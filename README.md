@@ -37,3 +37,9 @@
         }
 
 Looking forward to add authentication and using a middleware to check whether someone doing the transaction is logged in or not.
+
+ASSUMPTIONS:
+For keeping track of type of transactions(debit/credit) a key called txnType is used.
+I have assumed that authorizationCode is simply a unique identifier so I have used that as transactionId for each successfull transaction.
+For now as there is no actual credit debit occuring, my base case is when every parameter is right and conditions are met then only the transaction is logged to the db to reduce db calls as well as to reduce non wanted datas, this however can be logged to a logger file in future maybe.
+ 
