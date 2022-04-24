@@ -1,0 +1,21 @@
+{
+    "successTxn": {
+        "status": true,
+        "code": 201,
+        "title": "Success",
+        "message": "Transaction Successful",
+        "response": {
+            "amount": 500,
+            "currency": "USD",
+            "type": "creditCard",
+            "card": {
+                "number": "79927398713"
+            },
+            "authorizationCode": "33b72e51334647f89d1dbc84765eba8f",
+            "status": "Success",
+            "time": "2022-04-23 13:03:33"
+        },
+        "under_maintenance": "no",
+        "server_timestamp": 1650699213
+    }
+}

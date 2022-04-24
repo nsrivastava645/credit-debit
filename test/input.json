@@ -1,0 +1,50 @@
+{
+    "truthyCredit": {
+        "amount": 500,
+        "currency": "USD",
+        "type": "creditCard",
+        "txnType": "1",
+        "card": {
+            "number": "79927398713",
+            "expirationMonth": "03",
+            "expirationYear": "2022",
+            "cvv": "282"
+        }
+    },
+    "wrongAmountCredit": {
+        "amount": "abc",
+        "currency": "USD",
+        "type": "creditCard",
+        "txnType": "1",
+        "card": {
+            "number": "79927398713",
+            "expirationMonth": "03",
+            "expirationYear": "2022",
+            "cvv": "282"
+        }
+    },
+    "truthyDebit": {
+        "amount": 500,
+        "currency": "USD",
+        "type": "creditCard",
+        "txnType": "2",
+        "card": {
+            "number": "79927398713",
+            "expirationMonth": "03",
+            "expirationYear": "2022",
+            "cvv": "282"
+        }
+    },
+    "wrongAmountDebit": {
+        "amount": "abc",
+        "currency": "USD",
+        "type": "creditCard",
+        "txnType": "2",
+        "card": {
+            "number": "79927398713",
+            "expirationMonth": "03",
+            "expirationYear": "2022",
+            "cvv": "282"
+        }
+    }
+}

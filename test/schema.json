@@ -1,0 +1,58 @@
+{
+    "properties": {
+        "code": {
+            "type": "number"
+        },
+        "message": {
+            "type": "string"
+        },
+        "response": {
+            "type": "object",
+            "properties": {
+                "amount": {
+                    "type": "number" 
+                },
+                "authorizationCode": {
+                    "type": "string"
+                },
+                "card": {
+                    "type": "object",
+                    "properties": {
+                        "number": {
+                            "type": "number"
+                        }
+                    },
+                    "required": ["number"]
+                },
+                "currency": {
+                    "type": "string"
+                },
+                "status": {
+                    "type": "string"
+                },
+                "time": {
+                    "type": "string",
+                    "format": "date-time"
+                },
+                "type": {
+                    "type": "string"
+                }
+            }, 
+            "required": ["amount", "card", "currency", "status", "time", "type"]
+        },
+        "serverTimestamp": {
+            "type": "number", 
+            "format": "date-time"
+        },
+        "status": {
+            "type": "boolean"
+        },
+        "title": {
+            "type": "string"
+        },
+        "underMaintenance": {
+            "type": "string"
+        }
+    },
+    "reauired": ["code", "message", "response", "serverTimestamp", "status" , "title", "underMaintenance"]
+}
